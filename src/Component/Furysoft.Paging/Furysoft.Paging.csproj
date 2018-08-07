@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Copyright>© 2017, Simon Paramore</Copyright>
+    <PackageLicenseUrl>https://github.com/Furysoft/Serializers/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Furysoft/Furysoft-Paging</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Furysoft/Furysoft-Paging</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Furysoft Paging</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <Authors>Simon Paramore</Authors>
+    <Company>Furysoft</Company>
+    <Description>Entities for helping with managing paging on server side calls</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\stylecop.json" Link="stylecop.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AdditionalFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jetbrains.Annotations" Version="11.1.0" PrivateAssets="All" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
