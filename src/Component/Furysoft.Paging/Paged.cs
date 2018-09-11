@@ -33,5 +33,10 @@ namespace Furysoft.Paging
         /// Gets or sets the total items.
         /// </summary>
         public int TotalItems { get; set; }
+
+        /// <summary>
+        /// Gets or sets the total pages.
+        /// </summary>
+        public int TotalPages { get; set; }
     }
 }
